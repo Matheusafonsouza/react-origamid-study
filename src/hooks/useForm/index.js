@@ -14,7 +14,7 @@ const inputTypes = {
 
 const useForm = (type) => {
     const [value, setValue] = useState({});
-    const [error, setError] = useState({});
+    const [error, setError] = useState('');
 
     const validate = () => {
         if (value.length === 0) {
